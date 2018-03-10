@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+	<meta charset="UTF-8">
+<head>
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+	<title> DigiTools </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+
+<div class="Game">
+	
+	
+<div class="Level">
+
+	<img id="GateA" src="images/nada.png" height="150px" width="150px"></img>
+
+	<img id="GateB" src="images/nada.png" height="150px" width="150px"></img>
+	
+	<img id="fin" src="images/rojo.png" height="150px" width="150px"></img>
+	
+	
+</div>
+
+
+<div class="Interface">
+
+<div class="Buttons">
+<div class="ContainerBut">
+
+	<button onclick="cambioOR()"><img src="images/or.png"  height="50px" width="50px"/></button>	
+	<button onclick="cambioAND()"><img src="images/and.png"  height="50px" width="50px"/></button>
+	<button onclick="cambioNOT()"><img src="images/not.png"  height="50px" width="50px"/></button>	
+	<br><br>
+	
+	<div class="custom-select">
+	<select onchange="desplegable()" id="GateSelector">
+			<option selected value="0"> Elige una puerta </option>
+			<option value="1">Puerta A</option> 
+			<option value="2">Puerta B</option> 
+	</select>
+	</div>
+</div>
+</div>
+
+<div class="Objective">
+<div class="ContainerObj">
+	<table border="1" id="Obj">
+		<tr>
+			<th>Entrada A</th>
+			<th>Entrada B</th>
+			<th>Salida</th>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+		</tr>
+	</table>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>

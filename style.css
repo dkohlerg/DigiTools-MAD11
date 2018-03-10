@@ -1,0 +1,105 @@
+.Game{
+	width: 1010px;
+	height: 600px;
+	background-color: #cc99ff;
+	border: solid;
+}
+.Level{
+	width: 1010px;
+	height: 400px;
+	background-image: url("images/nivel.jpg");
+}
+.Interface{
+	width: 1010px;
+	height: 200px;
+	background-color: #cc99ff;
+	text-align: center;
+}
+
+.Buttons{
+	position: absolute;
+	width: 505px;
+	height: 200px;
+	text-align: center;
+	border-top: dashed;
+	border-right: dashed;
+}
+
+.Objective{
+	position: relative;
+	width: 505px;
+	height: 200px;
+	text-align: center;
+	margin-left: 505px;
+	border-top: dashed;
+}
+
+.ContainerBut{
+	margin-top: 40px;
+}
+
+.ContainerObj{
+	margin-top: 25px;
+	margin-left: 150px; 
+}
+
+#GateA{
+  position: absolute;
+  top:  185px; 
+  left: 230px;
+}
+
+#GateB{
+  position: absolute;
+  top:  147px; 
+  left: 675px;
+}
+
+#fin{
+  position: absolute;
+  top:  147px; 
+  left: 833px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+
+.Main{
+	width: 1010px;
+	height: 600px;
+	background-color: #cc99ff;
+	text-align: center;
+	border: solid;
+}
+
+.EnterGame{
+	margin-top: 100px;
+}
+
+#Obj {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+#Obj td, #Obj th {
+    border: 1px solid #ddd;
+}
+
+#Obj tr:nth-child(even){background-color: #f2f2f2;}
+
+#Obj tr:hover {background-color: #ff33ff;}
+
+#Obj th {
+    text-align: left;
+    background-color: #63756B;
+    color: white;
+}
+
+h1 {
+	font-size: 20px;
+}
